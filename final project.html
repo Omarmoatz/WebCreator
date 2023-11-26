@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Final Project</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/44e6bb82f2.js" crossorigin="anonymous"></script>
+    <style>
+        body{font-family: 'Noto Serif', serif;}
+        p{
+            color: gray;
+        }
+        .navbar{
+            background-color: rgb(128, 128, 128);
+            padding: 4px;
+            justify-content: flex-end;
+        }
+        .x{
+            display: flex;
+            gap: 35px;
+            color: black;
+            margin-right: 70px;
+        }
+        .x li{
+            display: flex;
+
+        }
+        .card1{
+            width: 100%;
+            height: 700px;
+            background-image: url(imeges/im1.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            text-align: center;
+            color: aliceblue;
+        }
+        button{
+            border-color: aliceblue;
+            border-radius: 20px;
+            padding: 10px 25px;
+            font-size: smaller;
+            margin-top: 20px;
+        }
+        h1{
+            margin-top: 10px;
+            word-spacing: 10px;
+            text-align: center;
+        }
+        h2,i{
+            color: rgb(0, 106, 255);
+        }
+        .card{
+            display: grid;
+            justify-content: center;
+            align-items: center;
+        }
+        .card .c{
+            width: 1200px;
+            height: 510px;
+            background-color: black;
+            margin: 50px 120px;
+            color: aliceblue;
+            display: grid;
+            grid-template-columns: 45% 25% 25%;
+            justify-content: center;
+            align-items: center;
+        }
+        .card .c img{
+            height: 61vh;
+            grid-row: 1/3;
+        }
+        .txt .p p{
+            color: gray;
+            box-sizing: border-box;
+            margin: 0px;
+        }
+        .txt{
+            width: 70%;
+            color: aliceblue;
+            text-transform: capitalize;
+            line-height: 22px;
+        }
+        .fa-solid{
+            font-size: 22px;
+            margin-right: 5px;
+        }
+        .a{
+           display: flex; 
+           justify-content: center;
+        }
+        .b p{
+            margin-left: 40px;
+            color: gray;
+        }
+        .b a{
+            margin-left: 40px;
+            color: rgb(1, 141, 228);
+        }
+
+        .card2{
+            width: 1200px;
+            height: 510px;
+            margin: 50px 120px;
+            color: black;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            justify-content: flex-end;
+            align-items: center;
+            display: flex;
+        }
+        .card22{
+            grid-template-rows: 45% 25% 25%;
+        }
+        .q{
+            text-align: center;
+        }
+        .q h1{
+            margin-top: 100px;
+            margin-bottom: 50px;
+        }  
+        .q i{
+            margin-left: 10px;
+        } 
+        .card3{
+            margin: 100px 400px;
+            background-color: rgb(255, 255, 255);
+            width: 600px;
+            height: 700px;
+            padding: 20px;
+        }  
+        .z{ 
+            background-color: pink;
+            width: 100%;
+            height: 700px;
+            padding: 50px;
+            margin-top: 100px;
+            box-sizing: border-box;
+        } 
+        input[type="text"],
+        input[type="tel"],
+        input[type="email"]{
+            display: block;
+            width: 100%;
+            padding: 5px 10px;
+            margin: 1px 0px;
+            box-sizing: border-box;
+            border-radius: 20px;
+        } 
+        input[type="submit"]{
+            text-align: center;
+            width: 150px;
+            border-radius: 20px;
+            padding: 5px 10px;
+            margin: 1px 0px
+        }
+        footer{
+            color: white;
+            background-color: rgb(54, 54, 54);
+            width: 100%;
+            height: 100%;
+            display: grid;
+            grid-template-columns: 25% 25% 25% 25%;
+            justify-content: center;
+            padding: 50px 100px;
+            margin-top: 50px;
+            font-size: small;
+            
+        }
+        footer i{
+            margin-left: 15px;
+        }
+        footer button{
+            color: aliceblue;
+            text-align: center;
+            background-color: rgb(12, 149, 239);
+        }
+
+
+    </style>
+</head>
+<body>
+    <SEction class="card1">
+        <div class="navbar">
+            <ul class="x">
+                <img src="imeges/logo2.png" alt="" width="60px" style="margin-right: 780px;" >
+                <li><a href="#">Home</a></li>
+                <li>Work</li>
+                <li>Service</li>
+                <li>About</li>
+                <li>Blog</li>
+                <li>Contact</li>
+            </ul>
+        </div>
+        <div>
+            <h1>We Love To Build Websites</h1>
+            <p>Free Web Temblates By Disney </p>
+            <button>Watch Vedio</button>
+        </div>
+    </SEction>
+    <section class="container mt-5">
+        <div class="row">
+            <div class="col-4">
+                <h2>Innovate</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque sint iste, tempore officiis illum aut quod, optio accusantium reiciendis sed enim unde accusamus expedita consectetur nostrum ad vitae dolorem. Molestiae</p>
+                <ul type="none">
+                    <li><i class="fa-solid fa-check fa-lg"></i> <span>Web Design</span></li> 
+                    <li><i class="fa-solid fa-check fa-lg"></i> <span>Product Manegment</span></li>
+                    <li><i class="fa-solid fa-check fa-lg"></i> <span>Proof of Concepts</span></li>
+                </ul>
+            </div>
+            <div class="col-4">
+                <h2>Create</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque sint iste, tempore officiis illum aut quod, optio accusantium reiciendis sed enim unde accusamus expedita consectetur nostrum ad vitae dolorem. Molestiae</p>
+                <ul type="none">
+                    <li><i class="fa-solid fa-check fa-lg"></i> <span>Web Design</span></li>
+                    <li><i class="fa-solid fa-check fa-lg"></i> <span>Branding</span></li>
+                    <li><i class="fa-solid fa-check fa-lg"></i> <span>web & App Development</span></li>
+                </ul>
+            </div>
+            <div class="col-4">
+                <h2>Scale</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque sint iste, tempore officiis illum aut quod, optio accusantium reiciendis sed enim unde accusamus expedita consectetur nostrum ad vitae dolorem. Molestiae</p>
+                <ul type="none">
+                    <li><i class="fa-solid fa-check fa-lg"></i> <span>Soial Media</span></li>
+                    <li><i class="fa-solid fa-check fa-lg"></i> <span>Paid Campaigns</span></li>
+                    <li><i class="fa-solid fa-check fa-lg"></i> <span>Marketing & SEO</span></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <div style="text-align: center;margin-top: 120px;">
+        <h1>Our Works</h1>
+        <p style="margin: 0px 400px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis inventore nobis harum aut impedit commodi? Quis delectus dignissimos necessitatibus labore voluptatem, </p>
+    </div>
+    <section class="container mt-5">
+        <div class="row">
+            <div class="col-lg-4">
+                <img src="imeges/im2.jpg" alt="" width="400px">
+            </div>
+            <div class="col-lg-4">
+                <img src="imeges/im3.jpg" alt="" width="400px">
+            </div>
+            <div class="col-lg-4">
+                <img src="imeges/im4.jpg" alt=""width="400px">
+            </div>
+        </div>
+        <div class="row mt-3">
+            <div class="col-lg-4">
+                <img src="imeges/im5.jpg" alt="" width="400px">
+            </div>
+            <div class="col-lg-4">
+                <img src="imeges/im6.jpg" alt="" width="400px">
+            </div>
+            <div class="col-lg-4">
+                <img src="imeges/im7.jpg" alt=""width="400px">
+            </div>
+        </div>
+    </section>
+    <section class="card">
+        <div class="c">
+            
+                <img src="imeges/im8.jpg" alt="">
+        
+            <div class="txt">
+                <div class="p" >
+                    <i class="fa-solid fa-umbrella" style="color: aliceblue; margin-right: 10px;"></i><span>strategy</span>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia repellendus facere</p>
+                    <a href="#" style="color: aliceblue;">Read More</a>
+                </div>
+            </div>
+            <div class="txt">
+                <div class="p">
+                    <i class="fa-solid fa-umbrella" style="color: aliceblue; margin-right: 10px;"></i><span>strategy</span>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia repellendus facere</p>
+                    <a href="#" style="color: aliceblue;">Read More</a>
+                </div>
+            </div>
+            <div class="txt">
+                <div class="p">
+                    <i class="fa-solid fa-umbrella" style="color: aliceblue; margin-right: 10px;"></i><span>strategy</span>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia repellendus facere</p>
+                    <a href="#" style="color: aliceblue;">Read More</a>
+                </div>
+            </div>
+            <div class="txt">
+                <div class="p">
+                    <i class="fa-solid fa-umbrella" style="color: aliceblue; margin-right: 10px;"></i><span>strategy</span>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia repellendus facere</p>
+                    <a href="#" style="color: aliceblue;">Read More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div style="text-align: center;">
+        <h1>Testimonials</h1>
+        <p style="margin: 0px 400px; color: gray;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis inventore nobis harum aut impedit commodi? Quis delectus dignissimos necessitatibus labore voluptatem, </p>
+        <div class="a mt-4">
+            <img src="imeges/pr11.jpg" alt="" width="50px" >
+            <p style="margin: 10px 10px;">Robert Williams</p>
+        </div>
+    </div>
+    <section class="container mt-5 b">
+        <h1 style="margin-bottom: 40px; margin-top: 80px;">Our Services</h1>
+        <div class="row">
+            <div class="col-lg-4 ">
+                <i class="fa-solid fa-laptop"></i> <span>Web Design</span>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste inventore impedit odit corporis debitis reprehenderit officiis ut? Similique, possimus illum</p>
+                <a href="#" >Read More</a>
+            </div>
+            <div class="col-lg-4">
+                <i class="fa-solid fa-laptop"></i> <span>ECommerce</span>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium error suscipit repellendus voluptatibus, nobis illum. Voluptates harum dolore obcaecati</p>
+                <a href="#" >Read More</a>
+            </div>
+            <div class="col-lg-4">
+                <i class="fa-solid fa-laptop"></i> <span>Web Applecations</span>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem ullam sapiente perferendis repellendus! Aliquam sint nobis vitae voluptatibus nam sed, </p>
+                <a href="#">Read More</a>
+            </div>
+        </div>
+        <div class="row mt-3">
+            <div class="col-lg-4">
+                <i class="fa-solid fa-laptop"></i> <span>Branding</span>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa repudiandae magnam veniam ratione velit consectetur unde repellendus, cumque asperiores magni </p>
+                <a href="#">Read More</a>
+            </div>
+            <div class="col-lg-4">
+                <i class="fa-solid fa-laptop"></i> <span>Copy Writing</span>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, quam dicta? Odit cum hic alias rem quae asperiores consectetur numquam quod unde eum voluptas </p>
+                <a href="#">Read More</a>
+            </div>
+            <div class="col-lg-4">
+                <i class="fa-solid fa-laptop"></i> <span>Mobile Applecation</span>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio quo nulla maiores ratione obcaecati non voluptatem repellendus mollitia vel ipsa maxime volup</p>
+                <a href="#">Read More</a>
+            </div>
+        </div>
+    </section>
+    <section class="card">
+        <div class="card2">
+            <div class="card22">
+                <div>
+                    <h1>About Us</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, aspernatur. Nemo molestiae quo consectetur. Illo asperiores doloribus, libero assumenda porro temporibus perferendis eum quibusdam eligendi dignissimos facere quae consectetur fuga.</p>
+                </div>
+                <div class="card222">
+                    <div>
+                        <i class="fa-solid fa-laptop"></i>
+                        <h6>Web And Mobile Specialites</h6>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse explicabo, corporis doloribus quas hic deleniti</p>
+                        <a href="#">learn More</a>
+                    </div> 
+                    <div>
+                        <i class="fa-solid fa-laptop"></i>
+                        <h6>Intuitive Thinkers</h6>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse explicabo, corporis doloribus quas hic deleniti</p>
+                        <a href="#">learn More</a>
+                    </div>
+                </div>
+            </div>
+            <img src="imeges/im8.jpg" alt="" width="500px">
+        </div>
+    </section>
+    <section class="container q">
+        <h1>Our Team</h1>
+        <div class="row">
+            <div class="col-lg-4">
+                <img src="imeges/pr11.jpg" alt="" width="100px">
+                <p>John Rooster</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, a et odio repellat molestiae facere tenetur possimus illum explicabo velit. Officia distinctio neque </p>
+                <i class="fa-brands fa-facebook" style="color: #6b6d70;"></i><span><i class="fa-brands fa-twitter" style="color: #828282;"></i></span><span><i class="fa-brands fa-linkedin" style="color: #7a7a7a;"></i></span><span><i class="fa-brands fa-instagram" style="color: #757575;"></i></span>
+            </div>
+            <div class="col-lg-4">
+                <img src="imeges/pr22.jpg" alt="" width="100px">
+                <p>John Rooster</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, a et odio repellat molestiae facere tenetur possimus illum explicabo velit. Officia distinctio neque </p>
+                <i class="fa-brands fa-facebook" style="color: #6b6d70;"></i><span><i class="fa-brands fa-twitter" style="color: #828282;"></i></span><span><i class="fa-brands fa-linkedin" style="color: #7a7a7a;"></i></span><span><i class="fa-brands fa-instagram" style="color: #757575;"></i></span>
+            </div>
+            <div class="col-lg-4">
+                <img src="imeges/pr33.jpg" alt="" width="100px">
+                <p>John Rooster</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, a et odio repellat molestiae facere tenetur possimus illum explicabo velit. Officia distinctio neque </p>
+                <i class="fa-brands fa-facebook" style="color: #6b6d70;"></i><span><i class="fa-brands fa-twitter" style="color: #828282;"></i></span><span><i class="fa-brands fa-linkedin" style="color: #7a7a7a;"></i></span><span><i class="fa-brands fa-instagram" style="color: #757575;"></i></span>
+            </div>
+        </div>
+    </section>
+    <section class="z">
+        <h1>Contact Us</h1>
+        <div class="card3">
+            <form>
+                <h4>Contact Here</h4>
+                <div>
+                    <label for="fname">FIRST NAME:</label><br>
+                    <input type="text" name="fname" id="fname" placeholder="First Name">
+        
+                    <label for="lname">LAST NAME:</label>
+                    <input type="text" name="lname" id="lname" placeholder="Last Name"><br>
+        
+                    <label for="email">E-MAIL:</label><br>
+                    <input type="email" name="email" id="email" placeholder="E-mail" ><br>
+        
+                    <label for="subject">Subject:</label><br>
+                    <input type="text" name="subject" id="subject" placeholder="subject"><br>
+
+                    <label for="Message">Message:</label><br>
+                    <input type="text" name="Message" id="Message" placeholder="Write Your Message Here"><br>
+        
+                </div>
+                <div>
+                    <input type="submit" value="Send Messages " class="x" style="color: #fff; background-color: rgb(4, 0, 36);">
+                </div>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div>
+            <h6>About Us</h6>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat culpa, sed maiores facilis minus officiis placeat aut cum maxime amet corrupti possimus dolor quia dicta saepe enim, dolorem quam esse?</p>   
+        </div>
+        <div>
+            <h6>features</h6>
+            <p>About</p>
+            <p>Service</p>
+            <p>Testimonials</p>
+            <p>contact us</p>
+        </div>
+        <div>
+            <h6>Follow Us</h6>
+            <i class="fa-brands fa-facebook" style="color: #6b6d70;"></i><span><i class="fa-brands fa-twitter" style="color: #828282;"></i></span><span><i class="fa-brands fa-linkedin" style="color: #7a7a7a;"></i></span><span><i class="fa-brands fa-instagram" style="color: #757575;"></i></span>
+        </div>
+        <div>
+            <h6>subscribe Newsletter</h6>
+            <input type="email" name="email" id="email" placeholder="E-mail" ><br>
+            <button>Send</button>
+        </div>
+
+    </footer>
+</body>
