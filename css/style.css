@@ -27,6 +27,9 @@ p{
     text-align: center;
     color: aliceblue;
 }
+.my_margin{
+    margin-top: 100px;
+}
 button{
     border-color: aliceblue;
     border-radius: 20px;
