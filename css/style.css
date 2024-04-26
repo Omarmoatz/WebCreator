@@ -2,11 +2,12 @@ body{font-family: 'Noto Serif', serif;}
 p{
     color: gray;
 }
-.navbar{
+/* .navbar{
     background-color: rgb(128, 128, 128);
-    padding: 4px;
+    padding: 10px;
     justify-content: flex-end;
-}
+    opacity: .5;
+} */
 .x{
     display: flex;
     gap: 35px;
