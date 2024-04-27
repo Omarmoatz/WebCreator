@@ -15,14 +15,14 @@ p{
 .card1{
     width: 100%;
     height: 700px;
-    background-image: url(../imeges/im1.jpg);
+    background-image: url(../imeges/desk1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
     color: aliceblue;
 }
 .my_margin{
-    margin-top: 100px;
+    margin-top: 150px;
 }
 button{
     border-color: aliceblue;
