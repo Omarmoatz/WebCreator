@@ -127,4 +127,8 @@ footer i{
     margin-left: 15px;
 }
 
-
+.bg-gray{
+    background-color: rgb(215, 215, 215);
+    border: 1px;
+    border-radius: 20px;
+}
