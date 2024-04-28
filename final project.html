@@ -11,9 +11,10 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="fontawesome/fontawesome-free-6.4.2-web/css/all.css">
+    <link rel="stylesheet" href="css/animate.css">
 </head>
 <body>
-    <section class="card1 ">
+    <section class="card1 bg-opacity-50 ">
         <div class="container">
             <nav class="navbar navbar-expand-lg  ">
                 <div class="container-fluid">
@@ -51,8 +52,8 @@
         </div>
 
         <div class="my_margin">
-            <h1>We Love To Build Websites</h1>
-            <p>Free Web Temblates By WebCreator </p>
+            <h1 id="typed"></h1>
+            <p>Free Web Temblates By WebCreators.</p>
             <button class="btn btn-dark">Watch Vedio</button>
         </div>
     </section>
@@ -96,14 +97,15 @@
         <div class="row">
             <div class="col-lg-6 py-5">
                 <div class="mt-5">
-                    <h1>We Love To Build Websites</h1>
-                    <p class="mt-4">Free Web Temblates By WebCreator Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio a amet dolores consequatur doloremque reiciendis quasi,
-                         explicabo aliquam, rem atque quia soluta ratione porro, eligendi magnam voluptate voluptatem reprehenderit sapiente? </p>
-                    <button class="btn btn-dark mt-5">Watch Vedio</button>
+                    <h5 class="text-primary">Amazing creative Team</h5>
+                    <h2>We Love To Build Websites</h2>
+                    <p class="mt-4" id="typed6"> </p>
+                    <button class="btn btn-dark mt-5 rounded-2">Watch Vedio</button>
                 </div>
             </div>
-            <div class="col-lg-6  ">
-                 <img src="imeges/laptob.jpg" alt="img" width="700px" >
+            <div class="col-lg-6 ">
+                 <img src="imeges/laptob.jpg" alt="img" width="700px" class="animate__backInRight" data-wow-duration="2s"  >
+                 <!-- class="slideInLeft" data-wow-duration="2s" data-wow-delay="5s" -->
             </div>
         </div>
     </div>
@@ -133,7 +135,7 @@
                 <img src="imeges/im6.jpg" alt="" width="400px">
             </div>
             <div class="col-lg-4">
-                <img src="imeges/im7.jpg" alt=""width="400px">
+                <img class="animate__backInRight" data-wow-duration="2s" src="imeges/im7.jpg" alt=""width="400px">
             </div>
         </div>
     </section>
@@ -342,8 +344,35 @@
             </div>
         </div>
 
-
     </footer>
+    <!-- <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script> -->
+    <script src="js/typed.umd.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+        // wow = new WOW()
+        // wow.init();
+
+        let typed = new Typed("#typed", {
+            strings: [' We Love To Build Websites`'],
+            typeSpeed: 50,
+            backSpeed: 0,
+            backDelay: 500,
+            startDelay: 1000,
+            loop: false,
+        });
+        let typed6 = new Typed('#typed6', {
+            strings: [` We Love To Build Websites Lorem ipsum dolor sit, 
+                        amet consectetur adipisicing elit. Nam sunt nulla culpa itaque,
+                        atque assumenda, quas totam magnam sed aperiam officia 
+                        qui molestias ipsam deserunt quia dolor omnis, blanditiis undo`,`Free Web Temblates By WebCreator Lorem ipsum dolor,
+                        sit amet consectetur adipisicing elit. Optio a amet dolores consequatur doloremque reiciendis quasi,
+                        explicabo aliquam, rem atque quia soluta ratione porro, eligendi magnam voluptate voluptatem reprehenderit sapiente?`],
+            typeSpeed: 20,
+            backSpeed: 0,
+            loop: true
+        });
+    </script>
 </body>
 </html>
