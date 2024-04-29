@@ -15,22 +15,5 @@ The key features of this project include:
 
 This project can be useful for both beginner and experienced web developers who want to quickly set up a web development environment and start building their projects.
 
-## Getting Started
-
-To use this project, follow these steps:
-
-1. Clone the repository:
-   ```
-   git clone https://github.com/Omarmoatz/WebCreator.git
-   ```
-
-2. Navigate to the project directory:
-   ```
-   cd WebCreator
-   ```
-
-3. Open the project in your preferred code editor.
-
-4. Start building your web application by modifying the HTML, CSS, and JavaScript files as needed.
 # preview
 ![](Screenshot.png)
