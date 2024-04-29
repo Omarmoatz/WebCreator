@@ -128,3 +128,12 @@ footer i{
     width: 1000px;
     height: 200px;
 }
+
+
+
+/*   media queries    */
+
+    /* mobile */
+    @media (min-width:576) {
+    
+    }
