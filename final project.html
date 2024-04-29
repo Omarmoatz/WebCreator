@@ -6,12 +6,14 @@
     <title>Website Builders</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <!-- <link href="https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/44e6bb82f2.js" crossorigin="anonymous"></script> -->
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <!-- <script src="https://kit.fontawesome.com/44e6bb82f2.js" crossorigin="anonymous"></script> -->
+    <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="fontawesome/fontawesome-free-6.4.2-web/css/all.css">
-    <link rel="stylesheet" href="css/animate.css">
+    
 </head>
 <body>
     <section class="card1 bg-opacity-50 ">
@@ -26,8 +28,8 @@
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 
                     </ul>
-                    <ul class="d-flex navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item d-flex">
+                    <ul class="d-flex navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item ">
                             <a class="nav-link active mx-2 text-white" aria-current="page" href="#">Home</a>
                           </li>
                           <li class="nav-item">
@@ -61,7 +63,7 @@
     <section class="container mt-5 ">
         <div class="row">
             <div class="col-4 mt-5 shadow-lg p-3 mb-5 rounded ">
-                <h2>Innovate</h2>
+                <h2 class="text-primary">Innovate</h2>
                 <p class="mt-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque sint iste, tempore officiis 
                     illum aut quod, optio accusantium reiciendis sed enim unde accusamus expedita consectetur nostrum ad vitae dolorem. Molestiae</p>
                 <ul type="none" class="mt-3">
@@ -71,7 +73,7 @@
                 </ul>
             </div>
             <div class="col-4 mt-5">
-                <h2>Create</h2>
+                <h2 class="text-primary">Create</h2>
                 <p class="mt-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque sint iste, tempore officiis illum
                      aut quod, optio accusantium reiciendis sed enim unde accusamus expedita consectetur nostrum ad vitae dolorem. Molestiae</p>
                 <ul type="none" class="mt-3">
@@ -81,7 +83,7 @@
                 </ul>
             </div>
             <div class="col-4 mt-5 shadow-lg p-3 mb-5 rounded">
-                <h2>Scale</h2>
+                <h2 class="text-primary">Scale</h2>
                 <p class="mt-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque sint iste, tempore officiis illum 
                     aut quod, optio accusantium reiciendis sed enim unde accusamus expedita consectetur nostrum ad vitae dolorem. Molestiae</p>
                 <ul type="none" class="mt-3">
@@ -104,8 +106,8 @@
                 </div>
             </div>
             <div class="col-lg-6 ">
-                 <img src="imeges/laptob.jpg" alt="img" width="700px" class="animate__backInRight" data-wow-duration="2s"  >
-                 <!-- class="slideInLeft" data-wow-duration="2s" data-wow-delay="5s" -->
+                <img src="imeges/laptob.jpg" alt="img" width="700px" class="img-fluid wow slideInRight" data-wow-offset="10"  data-wow-iteration="10" data-wow-duration="3s">
+                <!-- class="wow slideInLeft" data-wow-duration="2s" data-wow-delay="5s" -->
             </div>
         </div>
     </div>
@@ -115,75 +117,93 @@
         <p style="margin: 0px 400px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis inventore nobis
              harum aut impedit commodi? Quis delectus dignissimos necessitatibus labore voluptatem, </p>
     </div>
-    <section class="container my-5">
+    <section class="container-fluid my-5 px-3">
         <div class="row">
             <div class="col-lg-4">
-                <img src="imeges/im2.jpg" alt="" width="400px">
+                <img src="imeges/im2.jpg" alt="img" class="img-fluid">
             </div>
             <div class="col-lg-4">
-                <img src="imeges/im3.jpg" alt="" width="400px">
+                <img src="imeges/im3.jpg" alt="img"  class="img-fluid">
             </div>
             <div class="col-lg-4">
-                <img src="imeges/im4.jpg" alt=""width="400px">
+                <img src="imeges/im4.jpg" alt="img" class="img-fluid">
             </div>
         </div>
         <div class="row mt-3">
             <div class="col-lg-4">
-                <img src="imeges/im5.jpg" alt="" width="400px">
+                <img src="imeges/im5.jpg" alt="img"  class="img-fluid">
             </div>
             <div class="col-lg-4">
-                <img src="imeges/im6.jpg" alt="" width="400px">
+                <img src="imeges/im6.jpg" alt="img"  class="img-fluid">
             </div>
             <div class="col-lg-4">
-                <img class="animate__backInRight" data-wow-duration="2s" src="imeges/im7.jpg" alt=""width="400px">
+                <img src="imeges/im7.jpg" alt="img" class="img-fluid">
             </div>
         </div>
     </section>
-    <section class="card my-5 ">
-        <div class="c">
-            
-                <img src="imeges/im8.jpg" alt="" class="py-4">
-        
-            <div class="txt">
-                <div class="p" >
-                    <i class="fa-solid fa-umbrella" style="color: aliceblue; margin-right: 10px;"></i><span>strategy</span>
-                    <p class="mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia repellendus facere</p>
-                    <a href="#" class="btn btn-outline-light mt-3">Read More</a>
+
+    <section>
+        <div class="container bg-black text-white py-3 px-3 mt-5 ">
+            <div class="row">
+                <div class="col-lg-5">
+                    <img src="imeges/im8.jpg" alt="img" class="img-fluid me-1">
                 </div>
-            </div>
-            <div class="txt">
-                <div class="p">
-                    <i class="fa-solid fa-umbrella" style="color: aliceblue; margin-right: 10px;"></i><span>strategy</span>
-                    <p class="mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia repellendus facere</p>
-                    <a href="#" class="btn btn-outline-light mt-3">Read More</a>
+                <div class="col-lg-1">
+                    <!-- spacer -->
                 </div>
-            </div>
-            <div class="txt">
-                <div class="p">
-                    <i class="fa-solid fa-umbrella" style="color: aliceblue; margin-right: 10px;"></i><span>strategy</span>
-                    <p class="mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia repellendus facere</p>
-                    <a href="#" class="btn btn-outline-light mt-3">Read More</a>
-                </div>
-            </div>
-            <div class="txt">
-                <div class="p">
-                    <i class="fa-solid fa-umbrella" style="color: aliceblue; margin-right: 10px;"></i><span>strategy</span>
-                    <p class="mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia repellendus facere</p>
-                    <a href="#" class="btn btn-outline-light mt-3">Read More</a>
+                <div class="col-lg-6">
+
+                    <div class="row">
+                        <div class="col-6 py-4 px-4">
+                            
+                                <i class="fa-solid fa-umbrella" style="color: aliceblue; margin-right: 10px;"></i><span>strategy</span>
+                                <p class="mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia repellendus facere</p>
+                                <a href="#" class="text-white mt-3">Read More</a>
+                            
+                        </div>
+                        <div class="col-6  py-4 px-4">
+                            
+                                <i class="fa-solid fa-umbrella" style="color: aliceblue; margin-right: 10px;"></i><span>strategy</span>
+                                <p class="mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia repellendus facere</p>
+                                <a href="#" class="text-white mt-3">Read More</a>
+                            
+                        </div>
+                    </div>
+
+                    <div class="row mt-3">
+                        <div class="col-6  py-4 px-4">
+                            
+                                <i class="fa-solid fa-umbrella" style="color: aliceblue; margin-right: 10px;"></i><span>strategy</span>
+                                <p class="mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia repellendus facere</p>
+                                <a href="#" class="text-white mt-3">Read More</a>
+                            
+                        </div>
+                        <div class="col-6  py-4 px-4">
+                            
+                                <i class="fa-solid fa-umbrella" style="color: aliceblue; margin-right: 10px;"></i><span>strategy</span>
+                                <p class="mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia repellendus facere</p>
+                                <a href="#" class="text-white mt-3">Read More</a>
+                            
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div>
     </section>
-    <div style="text-align: center;" class="my-5">
-        <h1>Testimonials</h1>
-        <p style="margin: 0px 400px; color: gray;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis inventore nobis harum aut impedit commodi? Quis delectus dignissimos necessitatibus labore voluptatem, </p>
+
+
+    <div style="text-align: center;" class="my-5 py-5">
+        <h1 class="my-5">Testimonials</h1>
+        <p style="margin: 0px 400px; color: gray;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis inventore
+             nobis harum aut impedit commodi? Quis delectus dignissimos necessitatibus labore voluptatem, </p>
         <div class="a mt-4">
-            <img src="imeges/pr11.jpg" alt="" width="50px" >
+            <img src="imeges/pr11.jpg" alt="img" width="50px" >
             <p style="margin: 10px 10px;">Robert Williams</p>
         </div>
     </div>
     <section class="container mt-5 b ">
-        <h1 style="margin-bottom: 40px; margin-top: 80px;">Our Services</h1>
+        <h1 class="my-5 text-center py-5">Our Services</h1>
         <div class="row mt-5">
             <div class="col-lg-4 py-5 px-5 bg-gray ">
                 <i class="fa-solid fa-laptop"></i> <span>Web Design</span>
@@ -251,8 +271,8 @@
             </div>
         </div>
     </div>
-    <section class="container q">
-        <h1>Our Team</h1>
+    <section class="container ourteam_section">
+        <h1 class=" py-5 my_margin">Our Team</h1>
         <div class="row">
             <div class="col-lg-4">
                 <img src="imeges/pr11.jpg" alt="" width="100px">
@@ -345,10 +365,11 @@
         </div>
 
     </footer>
+    <script src="js/wow.min.js"></script>
     <!-- <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script> -->
     <script src="js/typed.umd.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="js/wow.min.js"></script>
+    
     <script>
         new WOW().init();
         // wow = new WOW()
