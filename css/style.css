@@ -155,6 +155,9 @@ footer i{
         .logo{
             width: 170px;
         }
+        .navbar a{
+            font-size: 11px !important;
+        }
         .top-text h1{
             font-size: 18px;
         }
@@ -162,7 +165,7 @@ footer i{
             font-size: 11px;
         }
         .background-nav{
-            height: 600px;
+            height: 460px;
         }
         .my_margin{
             margin: 50px;
@@ -211,9 +214,45 @@ footer i{
         .top-text form,::placeholder{
             font-size: 13px;
         }
+        .myform{
+            width: 95% !important;
+            margin-left: 10px;
+        }
+        .ourteam_section h1{
+            margin: 0px 10px;
+        }
     }
 
     /* tablet */
-    @media (min-width:577px) and (max-width:991){
-
+    @media (min-width:577px) and (max-width:991px){
+        .logo{
+            width: 200px;
+        }
+        .navbar a{
+            font-size: 15px !important;
+        }
+        .my_image{
+            width: 60% !important;
+            margin-left: 350px;
+            margin-top: -135px;
+        }
+        .top-text h1{
+            font-size: 30px;
+        }
+        .top-text p,li{
+            font-size: 15px
+        }
+        .top-text button{
+            width: 82px;
+            font-size: 10px;
+        }
+        .mypadding {
+            padding: 10px 50px;
+        }
+        .top-text form,::placeholder{
+            font-size: 13px;
+        }
+        .top-margin{
+            margin-top: 50px !important;
+        }
     }
